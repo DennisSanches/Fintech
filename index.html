@@ -7,7 +7,7 @@
     <title>Dashboard Financeiro</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="/Fintech/css/styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,14 +28,14 @@
                     <a class="nav-link text-white" href="#">Relatórios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Configurações</a>
+                    <a class="nav-link text-white" href="#">Cartões</a>
                 </li>
             </ul>
         </div>
     </nav>
     <div class="container-fluid">
         <div class="row">
-            <nav id="sidebar" class="col-md-2 d-none d-md-block sidebar">
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-none d-md-block sidebar">
                 <div class="sidebar-sticky">
                     <div class="text-center my-4">
                         <img src="https://via.placeholder.com/100" class="rounded-circle" alt="Imagem de Perfil">
@@ -43,7 +43,7 @@
                     </div>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">
+                            <a class="nav-link" href="#">
                                 <i class="fas fa-user"></i> Perfil
                             </a>
                         </li>
@@ -115,8 +115,8 @@
                             <div class="card-body">
                                 <h5 class="card-title text-primary">Receita ao Longo do Tempo</h5>
                                 <div id="revenue-chart" style="height: 300px;">
-                                    <img src="/Fintech/icones_logos/Finance app-bro.png" alt="Gráfico Receita"
-                                        style="width: 80%;">
+                                    <img class="img-fluid " src="/Fintech/icones_logos/Finance app-bro.png" alt="Gráfico Receita" style="height: 100%;"
+                                        >
                                 </div>
                             </div>
                         </div>
@@ -126,7 +126,7 @@
                             <div class="card-body">
                                 <h5 class="card-title text-primary">Despesas ao Longo do Tempo</h5>
                                 <div id="expense-chart" style="height: 300px;">
-                                    <img src="/icones_logos/image.png" alt="Gráfico Despesas" style="height: 90%;">
+                                    <img class="img-fluid" src="/Fintech/icones_logos/Finance app-rafiki.png" alt="Gráfico Despesas" style="height: 115%;">
                                 </div>
                             </div>
                         </div>
@@ -142,11 +142,13 @@
                 </footer>
             </main>
         </div>
+        
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <a href="https://storyset.com/business">Business illustrations by Storyset</a>
 </body>
 
 </html>
